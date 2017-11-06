@@ -48,5 +48,14 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-web:4.3.1.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-webmvc:4.3.1.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: javax.servlet:javax.servlet-api:3.1.0" level="project" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Desktop/未命名文件夹/libs/lfasr-sdk-client-2.0.0.1005-jar-with-dependencies.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
   </component>
 </module>
