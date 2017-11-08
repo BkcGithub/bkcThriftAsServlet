@@ -6,73 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c19ed8e-b797-4b74-b8bb-dfcc62723829" name="Default" comment="科大讯飞语音转文本试用">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/lfasr-sdk-client.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/bkc/service/GreetingService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/bkc/service/MathOperation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/bkc/test/Java8Tester.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bkc/controller/Hello$TestController.class" afterPath="$PROJECT_DIR$/target/classes/com/bkc/controller/Hello$TestController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bkc/controller/Hello.class" afterPath="$PROJECT_DIR$/target/classes/com/bkc/controller/Hello.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bkc/controller/ThriftClientDemo.class" afterPath="$PROJECT_DIR$/target/classes/com/bkc/controller/ThriftClientDemo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bkc/service/TestQryImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/bkc/service/TestQryImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bkc/servlet/QueryServlet.class" afterPath="$PROJECT_DIR$/target/classes/com/bkc/servlet/QueryServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/QryResult$1.class" afterPath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/QryResult$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/QryResult$QryResultStandardScheme.class" afterPath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/QryResult$QryResultStandardScheme.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/QryResult$QryResultStandardSchemeFactory.class" afterPath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/QryResult$QryResultStandardSchemeFactory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/QryResult$QryResultTupleScheme.class" afterPath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/QryResult$QryResultTupleScheme.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/QryResult$QryResultTupleSchemeFactory.class" afterPath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/QryResult$QryResultTupleSchemeFactory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/QryResult$_Fields.class" afterPath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/QryResult$_Fields.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/QryResult.class" afterPath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/QryResult.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$1.class" afterPath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$AsyncClient$Factory.class" afterPath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$AsyncClient$Factory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$AsyncClient$helloWorld_call.class" afterPath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$AsyncClient$helloWorld_call.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$AsyncClient$qryTest_call.class" afterPath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$AsyncClient$qryTest_call.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$AsyncClient.class" afterPath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$AsyncClient.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$AsyncIface.class" afterPath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$AsyncIface.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$AsyncProcessor$helloWorld$1.class" afterPath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$AsyncProcessor$helloWorld$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$AsyncProcessor$helloWorld.class" afterPath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$AsyncProcessor$helloWorld.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$AsyncProcessor$qryTest$1.class" afterPath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$AsyncProcessor$qryTest$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$AsyncProcessor$qryTest.class" afterPath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$AsyncProcessor$qryTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$AsyncProcessor.class" afterPath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$AsyncProcessor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$Client$Factory.class" afterPath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$Client$Factory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$Client.class" afterPath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$Client.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$Iface.class" afterPath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$Iface.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$Processor$helloWorld.class" afterPath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$Processor$helloWorld.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$Processor$qryTest.class" afterPath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$Processor$qryTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$Processor.class" afterPath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$Processor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$helloWorld_args$_Fields.class" afterPath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$helloWorld_args$_Fields.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$helloWorld_args$helloWorld_argsStandardScheme.class" afterPath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$helloWorld_args$helloWorld_argsStandardScheme.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$helloWorld_args$helloWorld_argsStandardSchemeFactory.class" afterPath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$helloWorld_args$helloWorld_argsStandardSchemeFactory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$helloWorld_args$helloWorld_argsTupleScheme.class" afterPath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$helloWorld_args$helloWorld_argsTupleScheme.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$helloWorld_args$helloWorld_argsTupleSchemeFactory.class" afterPath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$helloWorld_args$helloWorld_argsTupleSchemeFactory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$helloWorld_args.class" afterPath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$helloWorld_args.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$helloWorld_result$_Fields.class" afterPath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$helloWorld_result$_Fields.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$helloWorld_result$helloWorld_resultStandardScheme.class" afterPath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$helloWorld_result$helloWorld_resultStandardScheme.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$helloWorld_result$helloWorld_resultStandardSchemeFactory.class" afterPath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$helloWorld_result$helloWorld_resultStandardSchemeFactory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$helloWorld_result$helloWorld_resultTupleScheme.class" afterPath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$helloWorld_result$helloWorld_resultTupleScheme.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$helloWorld_result$helloWorld_resultTupleSchemeFactory.class" afterPath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$helloWorld_result$helloWorld_resultTupleSchemeFactory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$helloWorld_result.class" afterPath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$helloWorld_result.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$qryTest_args$_Fields.class" afterPath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$qryTest_args$_Fields.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$qryTest_args$qryTest_argsStandardScheme.class" afterPath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$qryTest_args$qryTest_argsStandardScheme.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$qryTest_args$qryTest_argsStandardSchemeFactory.class" afterPath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$qryTest_args$qryTest_argsStandardSchemeFactory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$qryTest_args$qryTest_argsTupleScheme.class" afterPath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$qryTest_args$qryTest_argsTupleScheme.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$qryTest_args$qryTest_argsTupleSchemeFactory.class" afterPath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$qryTest_args$qryTest_argsTupleSchemeFactory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$qryTest_args.class" afterPath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$qryTest_args.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$qryTest_result$_Fields.class" afterPath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$qryTest_result$_Fields.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$qryTest_result$qryTest_resultStandardScheme.class" afterPath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$qryTest_result$qryTest_resultStandardScheme.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$qryTest_result$qryTest_resultStandardSchemeFactory.class" afterPath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$qryTest_result$qryTest_resultStandardSchemeFactory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$qryTest_result$qryTest_resultTupleScheme.class" afterPath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$qryTest_result$qryTest_resultTupleScheme.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$qryTest_result$qryTest_resultTupleSchemeFactory.class" afterPath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$qryTest_result$qryTest_resultTupleSchemeFactory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$qryTest_result.class" afterPath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$qryTest_result.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry.class" afterPath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/proxy/ThriftServerProxy$1.class" afterPath="$PROJECT_DIR$/target/classes/com/bkc/thrift/proxy/ThriftServerProxy$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/proxy/ThriftServerProxy.class" afterPath="$PROJECT_DIR$/target/classes/com/bkc/thrift/proxy/ThriftServerProxy.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thriftserver/ThriftServer.class" afterPath="$PROJECT_DIR$/target/classes/com/bkc/thriftserver/ThriftServer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+    <list default="true" id="3c19ed8e-b797-4b74-b8bb-dfcc62723829" name="Default" comment="java8 test">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkc.iml" afterPath="$PROJECT_DIR$/bkc.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -84,11 +20,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Java8Tester.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Java8Tester.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/bkc/test/Java8Tester.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
               <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MathOperation.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/bkc/service/MathOperation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="8" lean-forward="false" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="7" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lfasr-sdk-client.log" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/logs/lfasr-sdk-client.log">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-190">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -138,6 +104,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/bkc/service/MathOperator.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bkc/service/GreetingService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bkc/test/Java8Tester.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -210,6 +177,11 @@
             <path>
               <item name="bkc" type="b2602c69:ProjectViewProjectNode" />
               <item name="bkcThrift" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bkc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bkcThrift" type="462c0819:PsiDirectoryNode" />
+              <item name="logs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bkc" type="b2602c69:ProjectViewProjectNode" />
@@ -509,7 +481,7 @@
       <workItem from="1507805081780" duration="1514000" />
       <workItem from="1509961850115" duration="5494000" />
       <workItem from="1510121800791" duration="1230000" />
-      <workItem from="1510123482637" duration="29000" />
+      <workItem from="1510123482637" duration="217000" />
     </task>
     <task id="LOCAL-00001" summary="科大讯飞语音转文本试用">
       <created>1509965344750</created>
@@ -518,11 +490,18 @@
       <option name="project" value="LOCAL" />
       <updated>1509965344750</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="java8 test">
+      <created>1510123540900</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1510123540901</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10592000" />
+    <option name="totallyTimeSpent" value="10780000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-267" y="-1080" width="1920" height="1080" extended-state="0" />
@@ -568,7 +547,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="科大讯飞语音转文本试用" />
-    <option name="LAST_COMMIT_MESSAGE" value="科大讯飞语音转文本试用" />
+    <MESSAGE value="java8 test" />
+    <option name="LAST_COMMIT_MESSAGE" value="java8 test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -743,14 +723,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bkc/service/MathOperation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bkc/test/Java8Tester.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -763,6 +735,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="34" lean-forward="false" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bkc/service/MathOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="8" lean-forward="false" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/lfasr-sdk-client.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-190">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="7" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
           <folding />
         </state>
       </provider>
