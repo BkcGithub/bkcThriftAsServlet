@@ -7,158 +7,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c19ed8e-b797-4b74-b8bb-dfcc62723829" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/bkc/handler/GlobalExceptionHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/bkc/pojo/ExceptionResponse.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/bkc/pojo/Person.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/bkc/pojo/SignException.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bkc/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bkc/WEB-INF/classes/applicationContext.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bkc/WEB-INF/classes/com/bkc/controller/Hello$TestController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bkc/WEB-INF/classes/com/bkc/controller/Hello.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bkc/WEB-INF/classes/com/bkc/controller/ThriftClientDemo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bkc/WEB-INF/classes/com/bkc/service/TestQryImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bkc/WEB-INF/classes/com/bkc/servlet/QueryServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bkc/WEB-INF/classes/com/bkc/thrift/generate/QryResult$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bkc/WEB-INF/classes/com/bkc/thrift/generate/QryResult$QryResultStandardScheme.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bkc/WEB-INF/classes/com/bkc/thrift/generate/QryResult$QryResultStandardSchemeFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bkc/WEB-INF/classes/com/bkc/thrift/generate/QryResult$QryResultTupleScheme.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bkc/WEB-INF/classes/com/bkc/thrift/generate/QryResult$QryResultTupleSchemeFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bkc/WEB-INF/classes/com/bkc/thrift/generate/QryResult$_Fields.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bkc/WEB-INF/classes/com/bkc/thrift/generate/QryResult.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bkc/WEB-INF/classes/com/bkc/thrift/generate/TestQry$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bkc/WEB-INF/classes/com/bkc/thrift/generate/TestQry$AsyncClient$Factory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bkc/WEB-INF/classes/com/bkc/thrift/generate/TestQry$AsyncClient$helloWorld_call.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bkc/WEB-INF/classes/com/bkc/thrift/generate/TestQry$AsyncClient$qryTest_call.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bkc/WEB-INF/classes/com/bkc/thrift/generate/TestQry$AsyncClient.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bkc/WEB-INF/classes/com/bkc/thrift/generate/TestQry$AsyncIface.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bkc/WEB-INF/classes/com/bkc/thrift/generate/TestQry$AsyncProcessor$helloWorld$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bkc/WEB-INF/classes/com/bkc/thrift/generate/TestQry$AsyncProcessor$helloWorld.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bkc/WEB-INF/classes/com/bkc/thrift/generate/TestQry$AsyncProcessor$qryTest$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bkc/WEB-INF/classes/com/bkc/thrift/generate/TestQry$AsyncProcessor$qryTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bkc/WEB-INF/classes/com/bkc/thrift/generate/TestQry$AsyncProcessor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bkc/WEB-INF/classes/com/bkc/thrift/generate/TestQry$Client$Factory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bkc/WEB-INF/classes/com/bkc/thrift/generate/TestQry$Client.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bkc/WEB-INF/classes/com/bkc/thrift/generate/TestQry$Iface.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bkc/WEB-INF/classes/com/bkc/thrift/generate/TestQry$Processor$helloWorld.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bkc/WEB-INF/classes/com/bkc/thrift/generate/TestQry$Processor$qryTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bkc/WEB-INF/classes/com/bkc/thrift/generate/TestQry$Processor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bkc/WEB-INF/classes/com/bkc/thrift/generate/TestQry$helloWorld_args$_Fields.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bkc/WEB-INF/classes/com/bkc/thrift/generate/TestQry$helloWorld_args$helloWorld_argsStandardScheme.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bkc/WEB-INF/classes/com/bkc/thrift/generate/TestQry$helloWorld_args$helloWorld_argsStandardSchemeFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bkc/WEB-INF/classes/com/bkc/thrift/generate/TestQry$helloWorld_args$helloWorld_argsTupleScheme.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bkc/WEB-INF/classes/com/bkc/thrift/generate/TestQry$helloWorld_args$helloWorld_argsTupleSchemeFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bkc/WEB-INF/classes/com/bkc/thrift/generate/TestQry$helloWorld_args.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bkc/WEB-INF/classes/com/bkc/thrift/generate/TestQry$helloWorld_result$_Fields.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bkc/WEB-INF/classes/com/bkc/thrift/generate/TestQry$helloWorld_result$helloWorld_resultStandardScheme.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bkc/WEB-INF/classes/com/bkc/thrift/generate/TestQry$helloWorld_result$helloWorld_resultStandardSchemeFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bkc/WEB-INF/classes/com/bkc/thrift/generate/TestQry$helloWorld_result$helloWorld_resultTupleScheme.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bkc/WEB-INF/classes/com/bkc/thrift/generate/TestQry$helloWorld_result$helloWorld_resultTupleSchemeFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bkc/WEB-INF/classes/com/bkc/thrift/generate/TestQry$helloWorld_result.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bkc/WEB-INF/classes/com/bkc/thrift/generate/TestQry$qryTest_args$_Fields.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bkc/WEB-INF/classes/com/bkc/thrift/generate/TestQry$qryTest_args$qryTest_argsStandardScheme.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bkc/WEB-INF/classes/com/bkc/thrift/generate/TestQry$qryTest_args$qryTest_argsStandardSchemeFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bkc/WEB-INF/classes/com/bkc/thrift/generate/TestQry$qryTest_args$qryTest_argsTupleScheme.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bkc/WEB-INF/classes/com/bkc/thrift/generate/TestQry$qryTest_args$qryTest_argsTupleSchemeFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bkc/WEB-INF/classes/com/bkc/thrift/generate/TestQry$qryTest_args.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bkc/WEB-INF/classes/com/bkc/thrift/generate/TestQry$qryTest_result$_Fields.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bkc/WEB-INF/classes/com/bkc/thrift/generate/TestQry$qryTest_result$qryTest_resultStandardScheme.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bkc/WEB-INF/classes/com/bkc/thrift/generate/TestQry$qryTest_result$qryTest_resultStandardSchemeFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bkc/WEB-INF/classes/com/bkc/thrift/generate/TestQry$qryTest_result$qryTest_resultTupleScheme.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bkc/WEB-INF/classes/com/bkc/thrift/generate/TestQry$qryTest_result$qryTest_resultTupleSchemeFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bkc/WEB-INF/classes/com/bkc/thrift/generate/TestQry$qryTest_result.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bkc/WEB-INF/classes/com/bkc/thrift/generate/TestQry.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bkc/WEB-INF/classes/com/bkc/thrift/proxy/ThriftServerProxy$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bkc/WEB-INF/classes/com/bkc/thrift/proxy/ThriftServerProxy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bkc/WEB-INF/classes/com/bkc/thriftserver/ThriftServer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bkc/WEB-INF/lib/commons-codec-1.9.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bkc/WEB-INF/lib/commons-collections-3.2.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bkc/WEB-INF/lib/commons-logging-1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bkc/WEB-INF/lib/commons-pool2-2.4.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bkc/WEB-INF/lib/fastjson-1.2.28.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bkc/WEB-INF/lib/httpclient-4.4.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bkc/WEB-INF/lib/httpcore-4.4.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bkc/WEB-INF/lib/javax.servlet-api-3.1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bkc/WEB-INF/lib/jedis-2.9.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bkc/WEB-INF/lib/libthrift-0.9.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bkc/WEB-INF/lib/log4j-1.2.17.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bkc/WEB-INF/lib/org.apache.commons.collections-3.2.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bkc/WEB-INF/lib/slf4j-api-1.7.21.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bkc/WEB-INF/lib/slf4j-log4j12-1.7.21.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bkc/WEB-INF/lib/spring-aop-4.3.1.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bkc/WEB-INF/lib/spring-beans-4.3.1.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bkc/WEB-INF/lib/spring-context-4.3.1.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bkc/WEB-INF/lib/spring-core-4.3.1.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bkc/WEB-INF/lib/spring-expression-4.3.1.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bkc/WEB-INF/lib/spring-test-4.3.1.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bkc/WEB-INF/lib/spring-web-4.3.1.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bkc/WEB-INF/lib/spring-webmvc-4.3.1.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bkc/WEB-INF/spring-servlet.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bkc/WEB-INF/web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bkc/index.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bkc/controller/Hello$TestController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bkc/controller/ThriftClientDemo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bkc/service/TestQryImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bkc/servlet/QueryServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/QryResult$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/QryResult$QryResultStandardScheme.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/QryResult$QryResultStandardSchemeFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/QryResult$QryResultTupleScheme.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/QryResult$QryResultTupleSchemeFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/QryResult$_Fields.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/QryResult.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$AsyncClient$Factory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$AsyncClient$helloWorld_call.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$AsyncClient$qryTest_call.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$AsyncClient.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$AsyncIface.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$AsyncProcessor$helloWorld$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$AsyncProcessor$helloWorld.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$AsyncProcessor$qryTest$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$AsyncProcessor$qryTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$AsyncProcessor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$Client$Factory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$Client.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$Iface.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$Processor$helloWorld.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$Processor$qryTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$Processor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$helloWorld_args$_Fields.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$helloWorld_args$helloWorld_argsStandardScheme.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$helloWorld_args$helloWorld_argsStandardSchemeFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$helloWorld_args$helloWorld_argsTupleScheme.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$helloWorld_args$helloWorld_argsTupleSchemeFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$helloWorld_args.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$helloWorld_result$_Fields.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$helloWorld_result$helloWorld_resultStandardScheme.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$helloWorld_result$helloWorld_resultStandardSchemeFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$helloWorld_result$helloWorld_resultTupleScheme.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$helloWorld_result$helloWorld_resultTupleSchemeFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$helloWorld_result.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$qryTest_args$_Fields.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$qryTest_args$qryTest_argsStandardScheme.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$qryTest_args$qryTest_argsStandardSchemeFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$qryTest_args$qryTest_argsTupleScheme.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$qryTest_args$qryTest_argsTupleSchemeFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$qryTest_args.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$qryTest_result$_Fields.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$qryTest_result$qryTest_resultStandardScheme.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$qryTest_result$qryTest_resultStandardSchemeFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$qryTest_result$qryTest_resultTupleScheme.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$qryTest_result$qryTest_resultTupleSchemeFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry$qryTest_result.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/generate/TestQry.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/proxy/ThriftServerProxy$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thrift/proxy/ThriftServerProxy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bkc/thriftserver/ThriftServer.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bkc/controller/Hello.class" afterPath="$PROJECT_DIR$/target/classes/com/bkc/controller/Hello.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/bkc_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/bkc_war_exploded.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/bkc/futuretask/ComputeTask.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/bkc/futuretask/FutureTaskForMultiCompute.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/bkc/TestRealMvc.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/bkc/TsedAll.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/spring-servlet.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bkc/controller/Hello.class" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/bkc/controller/Hello.java" afterPath="$PROJECT_DIR$/src/main/java/com/bkc/controller/HelloWorldController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkc.iml" afterPath="$PROJECT_DIR$/bkc.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/lfasr-sdk-client.log" afterPath="$PROJECT_DIR$/logs/lfasr-sdk-client.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/bkc/controller/Hello.java" afterPath="$PROJECT_DIR$/src/main/java/com/bkc/controller/Hello.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-servlet.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-servlet.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -173,62 +33,106 @@
       <file leaf-file-name="spring-servlet.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-servlet.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="33" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="18" selection-end-column="33" />
+            <state relative-caret-position="357">
+              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Hello.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/bkc/controller/Hello.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="21" column="11" lean-forward="false" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SignException.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/bkc/pojo/SignException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding>
-                <element signature="e#307#308#0" expanded="true" />
-                <element signature="e#367#368#0" expanded="true" />
-                <element signature="e#407#408#0" expanded="true" />
-                <element signature="e#432#433#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ExceptionResponse.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/bkc/pojo/ExceptionResponse.java">
+      <file leaf-file-name="spring-servlet.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/spring-servlet.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HelloWorldController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/bkc/controller/HelloWorldController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="235">
+              <caret line="23" column="30" lean-forward="false" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MathOperation.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/bkc/service/MathOperation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="8" lean-forward="false" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestRealMvc.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/bkc/TestRealMvc.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="245">
+              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding>
-                <element signature="e#483#484#0" expanded="true" />
-                <element signature="e#510#511#0" expanded="true" />
-                <element signature="e#543#544#0" expanded="true" />
-                <element signature="e#573#574#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GlobalExceptionHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/bkc/handler/GlobalExceptionHandler.java">
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="74" lean-forward="false" selection-start-line="25" selection-start-column="67" selection-end-line="25" selection-end-column="74" />
+            <state relative-caret-position="408">
+              <caret line="24" column="24" lean-forward="false" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestQryImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/bkc/service/TestQryImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GreetingServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/bkc/service/impl/GreetingServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="5" lean-forward="false" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1853#1854#0" expanded="true" />
-                <element signature="e#1940#1941#0" expanded="true" />
+                <element signature="e#243#244#0" expanded="true" />
+                <element signature="e#318#319#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="236">
+              <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TsedAll.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/bkc/TsedAll.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -244,6 +148,11 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>serv</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -270,15 +179,20 @@
         <option value="$PROJECT_DIR$/src/main/java/com/bkc/test/Java8Tester.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/com/bkc/test/Java8Time.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/bkc/python/numpy.py" />
         <option value="$PROJECT_DIR$/src/main/java/com/bkc/controller/XunfeiVoice.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bkc/pojo/Person.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bkc/pojo/ExceptionResponse.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bkc/pojo/SignException.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-servlet.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/bkc/controller/Hello.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bkc/handler/GlobalExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/bkc/TsedAll.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bkc/futuretask/ComputeTask.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bkc/futuretask/FutureTaskForMultiCompute.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bkc/service/impl/GreetingServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bkc/controller/Hello.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/bkc/TestRealMvc.java" />
       </list>
     </option>
   </component>
@@ -342,6 +256,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -377,51 +292,6 @@
               <item name="bkcThrift" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="bkc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bkc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bkcThrift" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="bkc" type="462c0819:PsiDirectoryNode" />
-              <item name="handler" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bkc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bkcThrift" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="bkc" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bkc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bkcThrift" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="bkc" type="462c0819:PsiDirectoryNode" />
-              <item name="thrift" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bkc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bkcThrift" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="bkc" type="462c0819:PsiDirectoryNode" />
-              <item name="thrift" type="462c0819:PsiDirectoryNode" />
-              <item name="generate" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bkc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bkcThrift" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -441,15 +311,38 @@
             </path>
             <path>
               <item name="bkc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="bkcThrift" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bkc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bkcThrift" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bkc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bkcThrift" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bkc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bkc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bkcThrift" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -463,6 +356,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
@@ -478,15 +372,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.numpy">
-    <configuration name="Java8Tester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TestRealMvc">
+    <configuration name="FutureTaskForMultiCompute" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.bkc.test.*" />
+          <option name="PATTERN" value="com.bkc.futuretask.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.bkc.test.Java8Tester" />
+      <option name="MAIN_CLASS_NAME" value="com.bkc.futuretask.FutureTaskForMultiCompute" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -497,6 +391,81 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="bkc" />
       <envs />
+    </configuration>
+    <configuration name="TestRealMvc" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.bkc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="bkc" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.bkc" />
+      <option name="MAIN_CLASS_NAME" value="com.bkc.TestRealMvc" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="TestRealMvc.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.bkc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="bkc" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.bkc" />
+      <option name="MAIN_CLASS_NAME" value="com.bkc.TestRealMvc" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="TsedAll.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.bkc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="bkc" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.bkc" />
+      <option name="MAIN_CLASS_NAME" value="com.bkc.TsedAll" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
     </configuration>
     <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.9" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/bkc/" />
@@ -571,25 +540,6 @@
           <artifact name="bkc:war exploded" />
         </option>
       </method>
-    </configuration>
-    <configuration name="XunfeiVoice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.bkc.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.bkc.controller.XunfeiVoice" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="bkc" />
-      <envs />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
@@ -689,17 +639,21 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <list size="4">
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Unnamed" />
-      <item index="1" class="java.lang.String" itemvalue="Application.XunfeiVoice" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Java8Tester" />
-      <item index="3" class="java.lang.String" itemvalue="Python.numpy" />
+      <item index="1" class="java.lang.String" itemvalue="Python.numpy" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TsedAll.test" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TestRealMvc.test" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TestRealMvc" />
+      <item index="5" class="java.lang.String" itemvalue="Application.FutureTaskForMultiCompute" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python.numpy" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Java8Tester" />
-        <item index="2" class="java.lang.String" itemvalue="Application.XunfeiVoice" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TestRealMvc" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TestRealMvc.test" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TsedAll.test" />
+        <item index="3" class="java.lang.String" itemvalue="Application.FutureTaskForMultiCompute" />
+        <item index="4" class="java.lang.String" itemvalue="Python.numpy" />
       </list>
     </recent_temporary>
   </component>
@@ -728,7 +682,13 @@
       <workItem from="1513765972522" duration="452000" />
       <workItem from="1513936293832" duration="323000" />
       <workItem from="1515408913832" duration="6553000" />
-      <workItem from="1515484889700" duration="7000" />
+      <workItem from="1515484889700" duration="45000" />
+      <workItem from="1515489487305" duration="96000" />
+      <workItem from="1515580405969" duration="21000" />
+      <workItem from="1515668409153" duration="30000" />
+      <workItem from="1516097716378" duration="9066000" />
+      <workItem from="1516183688047" duration="6346000" />
+      <workItem from="1516346770214" duration="3670000" />
     </task>
     <task id="LOCAL-00001" summary="科大讯飞语音转文本试用">
       <created>1509965344750</created>
@@ -758,11 +718,50 @@
       <option name="project" value="LOCAL" />
       <updated>1510297091043</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="springMvc的一些知识">
+      <created>1515484925690</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1515484925690</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="TestRealMvc - 2018.01.19 at 15h 29m 00s.xml">
+      <configuration name="TestRealMvc" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRealMvc - 2018.01.19 at 15h 32m 12s.xml">
+      <configuration name="TestRealMvc" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRealMvc - 2018.01.19 at 16h 00m 00s.xml">
+      <configuration name="TestRealMvc" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRealMvc_test - 2018.01.17 at 15h 41m 37s.xml">
+      <configuration name="TestRealMvc.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRealMvc_test - 2018.01.19 at 15h 30m 54s.xml">
+      <configuration name="TestRealMvc.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRealMvc_test - 2018.01.19 at 15h 34m 58s.xml">
+      <configuration name="TestRealMvc.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TsedAll_test - 2018.01.16 at 18h 28m 20s.xml">
+      <configuration name="TsedAll.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TsedAll_test - 2018.01.16 at 18h 38m 49s.xml">
+      <configuration name="TsedAll.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TsedAll_test - 2018.01.17 at 11h 32m 13s.xml">
+      <configuration name="TsedAll.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TsedAll_test - 2018.01.19 at 15h 32m 37s.xml">
+      <configuration name="TsedAll.test" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30491000" />
+    <option name="totallyTimeSpent" value="49758000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -777,18 +776,19 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3880597" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23134328" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27860695" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.47567955" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22389127" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -796,7 +796,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -815,7 +814,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41269842" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.54850745" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -824,11 +823,11 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23631841" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4762533" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22389127" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -846,7 +845,8 @@
     <MESSAGE value="java8 test" />
     <MESSAGE value=".ignotre" />
     <MESSAGE value="java8" />
-    <option name="LAST_COMMIT_MESSAGE" value="java8" />
+    <MESSAGE value="springMvc的一些知识" />
+    <option name="LAST_COMMIT_MESSAGE" value="springMvc的一些知识" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -874,75 +874,36 @@
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/bkc/TsedAll.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/bkc/TestRealMvc.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/bkc/controller/HelloWorldController.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/bkc/futuretask/FutureTaskForMultiCompute.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="11" />
+      <option name="time" value="17" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bkc/service/MathOperation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="8" lean-forward="false" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bkc/test/Java8Tester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="20" column="70" lean-forward="false" selection-start-line="20" selection-start-column="70" selection-end-line="20" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="163" column="11" lean-forward="false" selection-start-line="163" selection-start-column="11" selection-end-line="163" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/stream/Stream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="358" column="14" lean-forward="false" selection-start-line="358" selection-start-column="14" selection-end-line="358" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="1232" column="22" lean-forward="false" selection-start-line="1232" selection-start-column="22" selection-end-line="1232" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bkc/service/GreetingService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="34" lean-forward="false" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/Comparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="149" column="8" lean-forward="false" selection-start-line="149" selection-start-column="8" selection-end-line="149" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="1238" column="43" lean-forward="false" selection-start-line="1238" selection-start-column="43" selection-end-line="1238" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bkc/test/Java8Tester2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="47" column="24" lean-forward="false" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bkc/test/Java8Stream.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -1043,13 +1004,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/Desktop/未命名文件夹/libs/lfasr-sdk-client-2.0.0.1005-jar-with-dependencies.jar!/com/iflytek/msp/cpdb/lfasr/model/Signature.class" />
     <entry file="jar://$USER_HOME$/Desktop/未命名文件夹/libs/lfasr-sdk-client-2.0.0.1005-jar-with-dependencies.jar!/com/iflytek/msp/cpdb/lfasr/client/LfasrClientImp.class" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
@@ -1063,20 +1017,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="20" column="70" lean-forward="false" selection-start-line="20" selection-start-column="70" selection-end-line="20" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bkc/service/GreetingService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="34" lean-forward="false" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bkc/service/MathOperation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="8" lean-forward="false" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -1110,22 +1050,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="18" lean-forward="false" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="626">
-          <caret line="108" column="60" lean-forward="false" selection-start-line="108" selection-start-column="60" selection-end-line="108" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bkc/controller/ThriftClientDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-93">
@@ -1138,19 +1062,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-          <folding>
-            <element signature="e#175#176#0" expanded="true" />
-            <element signature="e#212#213#0" expanded="true" />
-            <element signature="e#240#241#0" expanded="true" />
-            <element signature="e#271#272#0" expanded="true" />
-            <element signature="e#298#299#0" expanded="true" />
-            <element signature="e#338#339#0" expanded="true" />
-            <element signature="e#370#371#0" expanded="true" />
-            <element signature="e#404#405#0" expanded="true" />
-            <element signature="e#434#435#0" expanded="true" />
-            <element signature="e#480#481#0" expanded="true" />
-            <element signature="e#518#519#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1172,7 +1083,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="37" column="13" lean-forward="false" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1190,56 +1100,160 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="33" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="18" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bkc/pojo/ExceptionResponse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
-          <folding>
-            <element signature="e#483#484#0" expanded="true" />
-            <element signature="e#510#511#0" expanded="true" />
-            <element signature="e#543#544#0" expanded="true" />
-            <element signature="e#573#574#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bkc/pojo/SignException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
+        <state relative-caret-position="170">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="e#307#308#0" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
-            <element signature="e#407#408#0" expanded="true" />
-            <element signature="e#432#433#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bkc/handler/GlobalExceptionHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
+        <state relative-caret-position="170">
           <caret line="25" column="74" lean-forward="false" selection-start-line="25" selection-start-column="67" selection-end-line="25" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/concurrent/FutureTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="131" column="11" lean-forward="false" selection-start-line="131" selection-start-column="11" selection-end-line="131" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bkc/futuretask/ComputeTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="11" lean-forward="false" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bkc/futuretask/FutureTaskForMultiCompute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1853#1854#0" expanded="true" />
-            <element signature="e#1940#1941#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bkc/controller/Hello.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="21" column="11" lean-forward="false" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+        <state relative-caret-position="1802">
+          <caret line="106" column="39" lean-forward="false" selection-start-line="106" selection-start-column="28" selection-end-line="106" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bkc/service/GreetingService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="34" lean-forward="false" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bkc/service/MathOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="8" lean-forward="false" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bkc/service/TestQryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/bkc/TsedAll.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bkc/service/impl/GreetingServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="5" lean-forward="false" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#243#244#0" expanded="true" />
+            <element signature="e#318#319#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bkc/controller/HelloWorldController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="23" column="30" lean-forward="false" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/bkc/TestRealMvc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="24" lean-forward="false" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/spring-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1304,6 +1318,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
