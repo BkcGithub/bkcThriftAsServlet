@@ -75,6 +75,7 @@
           <element id="library" level="project" name="Maven: com.github.spullara.mustache.java:compiler:0.9.3" />
           <element id="library" level="project" name="Maven: org.elasticsearch.plugin:percolator-client:6.0.1" />
           <element id="library" level="project" name="Maven: org.elasticsearch.plugin:parent-join-client:6.0.1" />
+          <element id="library" level="project" name="Maven: com.iflytek.voicecloud:lfasr:1.2.3" />
         </element>
       </element>
       <element id="directory" name="META-INF">

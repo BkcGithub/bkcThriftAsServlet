@@ -1,4 +1,4 @@
-package com.bkc.futuretask;
+package com.bkc.thread.futuretask;
 
 import java.util.concurrent.Callable;
 

@@ -1,3 +1,4 @@
+/*
 package com.bkc.controller;
 
 import com.alibaba.fastjson.JSON;
@@ -12,15 +13,17 @@ import java.util.HashMap;
 
 public class XunfeiVoice {
     // 本地文件地址
-    private static final String local_file = "/Users/bkc/Downloads/testVoice.mp3";
+    private static final String local_file = "/Users/bkc/Desktop/startsportz.WAV";
 
-    /**
+    */
+/**
      *  LfasrType枚举类型说明：
      // 16K标准版-已录制音频，支持格式wav,flac,opus,mp3,m4a
      LfasrType.LFASR_STANDARD_RECORDED_AUDIO
      // 8K电话专用版-已录制音频，支持格式wav,flac,mp3
      LfasrType.LFASR_TELEPHONY_RECORDED_AUDIO
-     */
+     *//*
+
     private static final LfasrType type = LfasrType.LFASR_STANDARD_RECORDED_AUDIO;
     // sleep
     private static int sleepSecond = 20;
@@ -117,3 +120,4 @@ public class XunfeiVoice {
         }
     }
 }
+*/
