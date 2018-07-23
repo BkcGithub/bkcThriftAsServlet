@@ -1,5 +1,7 @@
 package com.bkc.thread.synchronize;
 
+import redis.clients.jedis.Jedis;
+
 public class Sub extends Main {
 
     synchronized public void operateSub() {

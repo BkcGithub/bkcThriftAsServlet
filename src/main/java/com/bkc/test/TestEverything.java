@@ -33,7 +33,10 @@ public class TestEverything {
 
         map1.put("1", "1");
 
-        List<String> strList = new ArrayList<>();
+        String a = "a";
+        String b = "a";
+
+        System.out.println(a == b);
     }
 
 }
