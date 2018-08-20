@@ -1,4 +1,4 @@
-package com.myshare.us;
+package com.myshare.cpu.us;
 
 public class NotConsumeCpuTask implements Runnable{
 
