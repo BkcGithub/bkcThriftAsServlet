@@ -1,9 +1,13 @@
 package com.bkc.util;
 
+import org.apache.commons.lang3.StringUtils;
+
 import javax.servlet.http.HttpServletRequest;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.LineNumberReader;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class CommonUtil {
     /**
@@ -56,4 +60,16 @@ public class CommonUtil {
         System.out.println("访问者IP="+ip);
         return ip;
     }
+
+    public static String filterEmojiV2(String source) {
+        if (StringUtils.isBlank(source)) {
+            return source;
+        }
+        String patternString = "[\uD84A\uDD8F]|[\uD83E\uDDD0-\uD83E\uDDDA]|[\uD83C\uDC04-\uD83C\uDE1A]|[\uD83D\uDC66-\uD83D\uDC69]|[uD83D\uDC96]|[\uD83D\uDC66\uD83C\uDFFB-\uD83D\uDC69\uD83C\uDFFF]|[\uD83D\uDE45\uD83C\uDFFB-\uD83D\uDE4F\uD83C\uDFFF]|[\uD83C\uDC00-\uD83D\uDFFF]|[\uD83E\uDD10-\uD83E\uDDC0]|[\uD83D\uDE00-\uD83D\uDE4F]|[\uD83D\uDE80-\uD83D\uDEF6]";
+        Pattern pattern = Pattern.compile(patternString);
+        Matcher matcher = pattern.matcher(source);
+
+        return matcher.replaceAll("");
+    }
+
 }
