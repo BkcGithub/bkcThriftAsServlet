@@ -69,6 +69,8 @@ public class DealUnionIdV2 {
                 user.setUserId(userId);
                 wechatUsers.add(user);
             }
+
+            System.out.println(JSONObject.toJSONString(wechatUsers));
             if (null != wechatUsers && wechatUsers.size() > 0) {
                 int listSize = wechatUsers.size();
                 System.out.println("totalCount " + listSize);

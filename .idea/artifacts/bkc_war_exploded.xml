@@ -7,6 +7,13 @@
           <element id="module-output" name="bkc" />
         </element>
         <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.mybatis:mybatis:3.2.8" />
+          <element id="library" level="project" name="Maven: org.mybatis:mybatis-spring:1.2.2" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:3.2.6.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-tx:3.2.6.RELEASE" />
+          <element id="library" level="project" name="Maven: aopalliance:aopalliance:1.0" />
+          <element id="library" level="project" name="Maven: commons-dbcp:commons-dbcp:1.4" />
+          <element id="library" level="project" name="Maven: commons-pool:commons-pool:1.5.4" />
           <element id="library" level="project" name="Maven: mysql:mysql-connector-java:8.0.12" />
           <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java:2.6.0" />
           <element id="library" level="project" name="Maven: org.apache.thrift:libthrift:0.9.3" />
